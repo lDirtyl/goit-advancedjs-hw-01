@@ -45,5 +45,7 @@ const onFeedbackFormSubmit = e => {
   localStorage.removeItem('feedback-form-state');
 };
 
-feedbackFormEl.addEventListener('change', onFormFieldChange);
+console.log(formData);
+
+feedbackFormEl.addEventListener('input', onFormFieldChange);
 feedbackFormEl.addEventListener('submit', onFeedbackFormSubmit);
