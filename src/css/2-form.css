@@ -1,5 +1,11 @@
 @import url('./base.css');
 
+body {
+  padding: 32px;
+  font-family: Montserrat, sans-serif;
+  background-color: #fff;
+}
+
 .feedback-form {
   padding: 24px;
   max-width: 408px;
