@@ -1,0 +1,31 @@
+body {
+  padding: 32px;
+  font-family: Montserrat, sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.go-back {
+  display: block;
+  margin-bottom: 16px;
+}
